@@ -1,0 +1,1 @@
+print("A gorilla's diet is mainly vegetarian.\n They feed mainly on stems,bamboo shoots and fruits")touch
