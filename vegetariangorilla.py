@@ -1,1 +1,2 @@
-print("A gorilla's diet is mainly vegetarian.\n They feed mainly on stems,bamboo shoots and fruits")touch
+gorillagorillagorilla = "They have a scientific name from the Western Lowland"
+print(gorillagorillagorilla)
