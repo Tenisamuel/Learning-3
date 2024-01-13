@@ -4,5 +4,5 @@ print("This program contains syntax errors\n")
 favourite_animal = "Giraffe"
 scariestAnimal = "lion"
 print("favourte animal", favourite_animal )  
-"\n"
+("\n")
 "(Scariest animal....", scariestAnimal
