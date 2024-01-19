@@ -5,6 +5,7 @@
 #Convert the weight to kilos and output the result as an integer. There are 2.2 lbs to a kg.
 
 goodsWeight = input("Enter the Weight of Goods in Pounds: \n")
+
 integer_of_goodWeight = int(goodsWeight)
 
 answer = integer_of_goodWeight + 24350
