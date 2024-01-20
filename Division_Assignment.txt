@@ -10,3 +10,13 @@ Assignment
 42 / 17 = 2 R 8
 650/173 = 3 R 131
 
+-------------------------------
+
+The first thing you will ask yourself is, which of these entities is bigger. 
+After answering the question of which is bigger, you will then check where you
+are you converting from and to.
+
+S -> B = D
+B -> S = M
+
+Then you will proceed to doing the calculations
