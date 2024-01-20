@@ -4,17 +4,6 @@
 #The laden weight of the truck  is .... lbs
 #Convert the weight to kilos and output the result as an integer. There are 2.2 lbs to a kg.
 
-teni = 34
-joy = 59
-
-print(joy + teni)
-
-#int_joy = int(joy)
-#int_teni = int(teni)
-
-#print(int_joy + int_teni)
-
-
 goodsWeight = input("Enter the Weight of Goods in Pounds: \n")
 
 integer_of_goodWeight = int(goodsWeight)
