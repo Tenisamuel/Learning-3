@@ -3,5 +3,11 @@
 #the fare.
 
 basic_fee = 4
-km = input("Enter the distance in kilometer from the airport to hotel")
-fareprice = 0.80*km
+
+km = float(input("Enter the distance in kilometer from the airport to hotel: "))
+
+print(km)
+
+fareprice = 0.80*km + basic_fee
+
+print("The fare price for this journey is given as: ", fareprice)
