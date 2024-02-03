@@ -6,3 +6,12 @@
 
 #print the result.
 
+time_hours = int(input("Enter the time in hours: \n"))
+
+time_min = int(input("Enter the time in minutes: \n"))
+
+convert_hours_to_minutes = (time_hours * 60) + time_min
+
+total_time_in_hours = (time_min / 60) + time_hours
+print("The total time in minutes is given as:", convert_hours_to_minutes,"minutes")
+print("The total time in hours is given as", total_time_in_hours , "hours")
