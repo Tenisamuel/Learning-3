@@ -6,6 +6,8 @@
 
 #print the result.
 
+
+Distance_in_Miles = int(input("Enter the amount of miles you cycled: \n"))
 time_hours = int(input("Enter the time in hours: \n"))
 
 time_min = int(input("Enter the time in minutes: \n"))
