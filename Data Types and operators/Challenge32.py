@@ -3,6 +3,8 @@
 
 Num_of_hours = int(input("Enter a number of hours as an integer between 50 and 100: \n"))
 
-time_in_days = Num_of_hours / 24
+time_in_days = Num_of_hours // 24
 
-print("The launch is in:",time_in_days)
+time_in_hours = Num_of_hours % 24
+
+print("The launch is in:", time_in_days, "days, and", time_in_hours, "hours")
