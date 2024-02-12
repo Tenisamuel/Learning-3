@@ -1,5 +1,5 @@
-#The program inputs the current battery charge on a mobile phone. if it is below 20%, it prints "Low battery.
-#Charge required.". if it is between 21% and 99% it prints "Battery charge OK.". if it is 100% "Fully Charged.".
+#The program inputs the current battery charge on a mobile phone. if it is below 15%, it prints "The battery.
+#needs to be charged required.". if it is between 16% and 80% it prints "Optimal Battery, Good Condition.". if it is above 80% "Fully Charged.".
 
 battery_input = int(input("Enter the percentage of the Battery: \n"))
 
