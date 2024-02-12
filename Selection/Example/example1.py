@@ -3,9 +3,9 @@
 
 battery_input = int(input("Enter the percentage of the Battery: \n"))
 
-if battery_input < 20:
-    print("Low Battery, Charge required")
-elif battery_input == 100:
+if battery_input < 15:
+    print("The battery. needs to be charged required")
+elif battery_input > 80:
     print("Fully Charged")
 else:
     print("Battery charge OK")
