@@ -19,3 +19,11 @@
  "34" + "01" == "3401"
  "35" + "27" == "62"
  "17" + "03" == "20"
+ print("Hello, World!")
+ fruits = ['apple', 'orange', 'banana']
+ square = 5 ** 2
+ help()
+ import os; os.listdir()
+ import random; random.randint(1, 10)
+ greeting = "Hello" + " " + "World!"
+ import math; radius = 3; area = math.pi * (radius ** 2)
