@@ -20,10 +20,10 @@
  "35" + "27" == "62" #False
  "17" + "03" == "20" #False
  print("Hello, World!") #Hello, World!
- fruits = ['apple', 'orange', 'banana'] 
- square = 5 ** 2 
- help()
- import os; os.listdir()
- import random; random.randint(1, 10)
- greeting = "Hello" + " " + "World!"
- import math; radius = 3; area = math.pi * (radius ** 2)
+ fruits = ['apple', 'orange', 'banana']; print(fruits)
+ square = 5 ** 2; print(square)
+ help(); print(help())
+ import os; function_1 = os.listdir(); print(function_1)
+ import random; random.randint(1, 10); print (random.randint(1, 10))
+ greeting = "Hello" + " " + "World!"; print(greeting)
+ import math; radius = 3; area = math.pi * (radius ** 2); print(area)
