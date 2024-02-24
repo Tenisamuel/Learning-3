@@ -22,8 +22,8 @@
  print("Hello, World!") #Hello, World!
  fruits = ['apple', 'orange', 'banana']; print(fruits)
  square = 5 ** 2; print(square)
- help()
- import os; os.listdir()
- import random; random.randint(1, 10)
+ help(); print(help())
+ import os; function_1 = os.listdir(); print(function_1)
+ import random; random.randint(1, 10); print(random.randint(1, 10))
  greeting = "Hello" + " " + "World!"; print(greeting)
  import math; radius = 3; area = math.pi * (radius ** 2); print(area)
