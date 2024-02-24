@@ -1,25 +1,25 @@
 #Run the below prompt using interactive mode in Python
 
- print("Hello, what is your name")
- print("This is me, I am a good person")
- print("I like to play video games")
- 5 * 6
- 9 * 4
- 94 / 2
- 48 / 13
- 19 - 15
- 21 - 23 
- 3 + 8
- 5 + 90
- 3 + 8 == 11
- 4 + 67 == 23
- 3 * 16 == 48
- 23 * 4 == 921
- print("This is a good" + "Football Match")
- "34" + "01" == "3401"
- "35" + "27" == "62"
- "17" + "03" == "20"
- print("Hello, World!")
+ print("Hello, what is your name") #Hello, what is your name
+ print("This is me, I am a good person") #This is me, I am a good person
+ print("I like to play video games") #I like to play video games
+ 5 * 6 #30
+ 9 * 4 #36
+ 94 / 2 #47.0
+ 48 / 13 #3.6923076923076925
+ 19 - 15 #4
+ 21 - 23 #-2
+ 3 + 8   #11
+ 5 + 90  #95
+ 3 + 8 == 11 #True
+ 4 + 67 == 23 #False
+ 3 * 16 == 48 #True
+ 23 * 4 == 921 #False
+ print("This is a good" + "Football Match") #This is a goodFootball Match
+ "34" + "01" == "3401 #TRUE
+ "35" + "27" == "62" #False
+ "17" + "03" == "20" #False
+ print("Hello, World!") #Hello, World!
  fruits = ['apple', 'orange', 'banana']
  square = 5 ** 2
  help()
