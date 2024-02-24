@@ -2,4 +2,5 @@
 #10 times 7 equal to 70
 #press enter to display the result
 
-TrueorFalse = input("Enter a number")
+
+# 10 * 7 == 70 = True

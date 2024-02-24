@@ -2,3 +2,5 @@
 
 #"John" is not equal to "JOHN"
 #press enter to display the result
+
+#"John" != "JOHN" = True
