@@ -13,28 +13,37 @@ answer = input("\nWhich is the only bird that can fly backwards? \n\
 
 #correct answer is a
 if answer == "a" or answer == "A":
-    .............................
+    print("Correct Answer, you have gotten one point")
+    score = score+1
+else:
+    print("Wrong Answer")
 
 answer = input("\nYou can get warts from touching a toad - \n\
 True (T) or False (F)? ")
 
 #correct answer is F
-if ................................
-    ...........................
+if answer == "f" or answer == "F":
+    print("Correct Answer")
+    score = score + 1
+else:
+    print("Wrong Answer")
 
 #correct answer is a
 answer = input("\nWhich animal never sleeps? \n\
 (a) bullfrog  (b) whale  (c) butterfly  ")
-....................................
-..............................
 
-print("\nYou scored", ........., "out of 3")
+if answer == "a" or answer == "A":
+    print("Correct Answer")
+    score = score + 1
+else:
+    print("Wrong Answer")
+
+print("\nYou scored", score, "out of 3")
 if score == 3:
     print("Well done!")
 elif score == 2:
     print("Pretty good!")
-elif .................
+elif score == 1:
     print("More nature study required...")
-.....
-
-    print("Oops!")
+elif score == 0:
+    print("Oops!, you did poorly")
