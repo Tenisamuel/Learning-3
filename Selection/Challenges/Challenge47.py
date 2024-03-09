@@ -5,5 +5,3 @@
 #"your resting heart rate is outside of the expected range. you may wish to see a proffesional,"
 
 #If the user priints "N". print "Rest for 20 minutes and try again !"
-
-
