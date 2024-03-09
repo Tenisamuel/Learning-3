@@ -6,14 +6,4 @@
 
 #If the user priints "N". print "Rest for 20 minutes and try again !"
 
-rest_time = str(input ("Have you been at rest for at least 20 minutes?"))
-heartrate = str(input("is your pulse rate between 60 and 100bpm?"))
-
-if rest_time == "Y":
-
-elif heartrate  > 60:
-    print("Your heart rate is at the expected range") 
-
-elif heartrate < 100:
-    print("Your heart rate is at the expected range") 
 
