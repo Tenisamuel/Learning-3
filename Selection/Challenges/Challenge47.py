@@ -5,3 +5,14 @@
 #"your resting heart rate is outside of the expected range. you may wish to see a proffesional,"
 
 #If the user priints "N". print "Rest for 20 minutes and try again !"
+<<<<<<< HEAD
+=======
+
+
+rest_time = str(input("Have you been at rest for at least 20 minutes\n"))
+
+if rest_time == "Y":
+  next_Q = str(input("Is your pulse rate between 60 and 100bpm\n"))
+  if next_Q  == "Y":
+    print("your heart rate is within the expected range")
+>>>>>>> 885155e (Resr)
