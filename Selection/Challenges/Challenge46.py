@@ -38,6 +38,16 @@ if answer == "a" or answer == "A":
 else:
     print("Wrong Answer")
 
+answer = input("What is the primary purpose of a firewall in network security? \
+               \n A. Encrypting data \n B. Monitoring network traffic \n C. Controlling access to network resources \
+               \n D. Detecting malware")
+
+if answer == "b" or answer == "B":
+    score = score + 1
+    print("Correct Answer")
+else:
+    print("Wrong Answer")
+
 print("\nYou scored", score, "out of 3")
 if score == 3:
     print("Well done!")
