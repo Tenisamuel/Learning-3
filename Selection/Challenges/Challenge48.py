@@ -20,7 +20,7 @@ elif choice == "2":
 elif choice == "3":
     print("Option 3 selected: Fast cash" )
     amount = input("select amount in £: 20, 50 or 100: ")
-    if not ((amount == "20") or (amount == "50") or (amount == "100"))
+    if not ((amount == "20") or (amount == "50") or (amount == "100")):
         print("Invalid amount")
 
     else:
