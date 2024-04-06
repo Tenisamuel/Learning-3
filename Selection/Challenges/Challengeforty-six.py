@@ -40,4 +40,4 @@ elif score == 2:
 elif score == 1:
     print("More nature study required...")
 elif score == 0:
-    print("Oops! that was  wrong")
+    print("Oops!")
