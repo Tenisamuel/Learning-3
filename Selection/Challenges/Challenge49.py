@@ -7,7 +7,8 @@
 print("Minimum decibels accepted per model:")
 print("Model A (A): 93 dB")
 print("Model B (B): 110 dB")
-print("Model C (C): 126 dB")
+print("Model C (C): 110 dB")
+print("Model D (D): 126 dB")
 
 #ask user to input model and recorded decibel test reading
 print("Which model has been tested? ")
@@ -33,6 +34,12 @@ elif model == "c" or model == "C":
         print("Failed. Requires adjustment or reclassification.")
     else:
         print("Passed.")
+
+elif model == "d" or model == "D":
+    if reading < 126:
+        print("Failed. Requires adjustment or reclassification.")
+    else:
+        print("passed")
 
 else:
     #invalid model entered
