@@ -9,6 +9,8 @@ print("Model A (A): 93 dB")
 print("Model B (B): 110 dB")
 print("Model C (C): 110 dB")
 print("Model D (D): 126 dB")
+print("Model E (E): 154 dB")
+print("Model F (F): 186 dB")
 
 #ask user to input model and recorded decibel test reading
 print("Which model has been tested? ")
@@ -37,6 +39,18 @@ elif model == "c" or model == "C":
 
 elif model == "d" or model == "D":
     if reading < 126:
+        print("Failed. Requires adjustment or reclassification.")
+    else:
+        print("passed")
+
+elif model == "e" or model =="E":
+    if reading < 154:
+        print("Failed. Requires adjustment or reclassification.")
+    else:
+        print("Passed")
+
+elif model == "f" or model == "F":
+    if reading < 186:
         print("Failed. Requires adjustment or reclassification.")
     else:
         print("passed")
