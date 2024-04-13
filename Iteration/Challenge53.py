@@ -3,3 +3,6 @@
 for x in range(10,-1,-1):
     print(i)
 
+#Write a program that countdown from 15 to 2
+#Write a program that countdown from 25 to 5
+#Write a program that countdown from 27 to 7
