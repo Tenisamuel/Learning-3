@@ -9,13 +9,14 @@ Timetables_two = int(input("Write another times table you want to be displayed: 
 
 print("\n\nThe Multiplication table of", Timetables, "is given below")
 
-print("\n\nThe Multiplication table of",Timetables_two, "is given below")
-for i in range(2,15):
+
+for i in range(2,19):
     result = Timetables * i
     print(Timetables, "x", i, " =", result)
 
+print("\n\nThe Multiplication table of",Timetables_two, "is given below")
 
-for i in range(2,15):
+for i in range(2,19):
     result_two = Timetables_two * i
     print(Timetables_two, "x", i, " =", result_two)
 
