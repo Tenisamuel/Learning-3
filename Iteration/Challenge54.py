@@ -5,10 +5,20 @@
 
 Timetables = int(input("Which times table would you like to be displayed: \n"))
 
+Timetables_two = int(input("Write another times table you want to be displayed: \n"))
+
 print("\n\nThe Multiplication table of", Timetables, "is given below")
 
-for i in range(2,13):
+print("\n\nThe Multiplication table of",Timetables_two, "is given below")
+for i in range(2,15):
     result = Timetables * i
     print(Timetables, "x", i, " =", result)
+
+
+for i in range(2,15):
+    result_two = Timetables_two * i
+    print(Timetables_two, "x", i, " =", result_two)
+
+
 
 # i = [2,3,4,5,6,7,8,9,10,11,12]
