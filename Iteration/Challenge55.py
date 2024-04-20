@@ -1,8 +1,11 @@
 #write a program to ask the user to input two positive integers a and b where a < b. print all the numbers
-#between a and B inclusive that are divisible by 13.
+#between a and b inclusive that are divisible by 13.
 
-a = int(input("Write one positive integer"))
+type_first_positive_integer_a = int(input("Write the first positive integer:\n"))
 
-b = int(input("Write one positive integer"))
+type_second_positive_integer_b= int(input("Write the second positive integer:\n"))
 
-for i in range()
+print("\n")
+
+for i in range(type_first_positive_integer_a,type_second_positive_integer_b + 1):
+    
