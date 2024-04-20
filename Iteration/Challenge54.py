@@ -9,3 +9,5 @@ print("\n\nThe Multiplication table of", Timetables, "is given below")
 for i in range(2,13):
     result = Timetables * i
     print(Timetables, "x", i, " =", result)
+
+# i = [2,3,4,5,6,7,8,9,10,11,12]
