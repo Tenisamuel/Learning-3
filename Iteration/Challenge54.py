@@ -1,6 +1,7 @@
 #write a program to ask a user which times table they would like to see displayed.
 #Display the times table from 2 to 12.
-
+# Write the program to collect two input of numbers and it will print the multiplication  
+#table of the two input from 2 to 15 
 
 Timetables = int(input("Which times table would you like to be displayed: \n"))
 
