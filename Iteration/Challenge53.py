@@ -17,6 +17,18 @@
 #for x in range(27,6,-1):
 #    print(x)
 
+
 #Write a program that countdown from 100 to 16
 #Write a program that countdown from 68 to 4
 #Write a program that countdown from 73 to 9
+
+for x in range(100,15,-1):
+    print(x)
+
+for x in range(68,3,-1):
+    print(x)
+
+for x in range(73,8,-1):
+    print(x)
+
+
