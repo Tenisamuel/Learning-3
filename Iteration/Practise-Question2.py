@@ -2,12 +2,12 @@
 #between x and y inclusive that are divisible by 9. Also write a test to make sure that this condition
 #is satisfied
 
-first_positive_integer_y = int(input("Write the first positive integer\n"))
+first_positive_integer_y = int(input("Write the first positive integer y\n"))
 
-second_positive_integer_x = int(input("Write the second positive integer\n"))
+second_positive_integer_x = int(input("Write the second positive integer x\n"))
 
 if (first_positive_integer_y > second_positive_integer_x):
-    for i in range(first_positive_integer_y,second_positive_integer_x+1):
+    for i in range(second_positive_integer_x, first_positive_integer_y+1):
         if(i % 9 ==0):
             print(i)
 
@@ -15,3 +15,4 @@ if (first_positive_integer_y > second_positive_integer_x):
 
 else:
     print("The value of y is greater than x, you need to satisfy the condition")
+
