@@ -8,5 +8,6 @@ type_second_positive_integer_b= int(input("Write the second positive integer:\n"
 print("\n")
 
 for i in range(type_first_positive_integer_a,type_second_positive_integer_b + 1):
+    #If the remainder of a dividend is zero, i.e that the dividend is divisible by the divisor.
     if (i % 13 == 0):
         print(i)
