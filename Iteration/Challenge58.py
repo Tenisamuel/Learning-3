@@ -1,0 +1,2 @@
+#write a program that asks an employee to enter thier overtime hours each day of the week to the nearest
+#quater hour, e.g, 1.25. The total overtime over the week is caculated and printed at the end of the program
