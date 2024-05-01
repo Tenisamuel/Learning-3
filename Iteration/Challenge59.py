@@ -3,4 +3,3 @@
 
 Enter = float(input("Write 5 numbers with decimal points\n"))
 
-if Enter = int(input("Write 5 numbers with decimal points\n"))
