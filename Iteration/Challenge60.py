@@ -2,8 +2,11 @@
 
 Timestable_two = int(input("Write the following timestables you want to b displayed 7,8,9 or 10"))
 
+if (Timestable_two >= 7) and (Timestable_two <= 10):
+    for i in range(1,13):
+        result = Timestable_two * i
+        print(Timestable_two, "X", i, " =", result)
 
-for i in range(1,13):
-    result = Timestable_two * i
-    print(Timestable_two, "X", i, " =", result)
-    
+else:
+    print("You have to satisfy the condition above")
+
