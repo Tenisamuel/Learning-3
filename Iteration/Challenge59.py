@@ -2,13 +2,14 @@
 #and 10.0. print out how many of the numbers entered are whole numbers
 
 
-print("Enter five numbers with or without decimal points")
-print("The program prints how many were whole numbers\n")
+print("This program will write the amount of numbers are integers")
 
 total = 0
 
-for n in range(5):
-    num = float(input("Enter number: "))
+for i in range(5):
+    num = float(input("Enter 5 numbers "))
     if num == int(num):
         total = total + 1
-print("You entered",total,"whole numbers")
+
+print("You entered", total , "whole numbers"  )
+
