@@ -5,7 +5,7 @@ if units == "C" or units == "c":
     for length in range(10,21,5):
         for width in range(10,13,2):
             area = length * width
-            print("Length", length,"cm \n Width", width, "cm \n Area", area, "cm\n\n")
+           
 
 elif units == "I" or units == "i":
     print("Tiles Calculations will be done in inches")
