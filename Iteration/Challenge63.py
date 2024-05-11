@@ -3,12 +3,15 @@
 
 day = 0
 totalLengths = 0
-lengths = int(input("Enter number of lengths"))
+lengths = int(input("Enter number of lengths\n"))
 
 while lengths != -1:
     day = day + 1
     totalLengths = totalLengths + lengths
-    lengths = int(input("Enter number of lengths, -1 to end: "))
+    lengths = int(input("Enter number of lengths, -1 to end: \n"))
 
 averageLengths = totalLengths / day
 print("Average daily number of lengths:", averageLengths)
+
+x = round(averageLengths, 1)
+print("Average daily length number in one decimal place is give as", x)
