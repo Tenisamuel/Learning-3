@@ -17,8 +17,3 @@ while timeofrunners != -1:
     timeofrunners = int(input("write your time in seconds, -1 to end: "))
     averagetimes = totaltimeofrunners / times
     print("The average time in seconds",averagetimes)
-
-# Teni : 36.5 seconds
-# Samuel : 38.2 seconds
-# Emeka : 39 seconds
-# Uche : 41.2 seconds

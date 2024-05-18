@@ -14,3 +14,9 @@ while moreData:
         moreData = False
 averageTime = totalTime/numberOfRrunners
 print("Average race time in seconds:", round(averageTime,2))
+
+
+# Teni : 36.5 seconds
+# Samuel : 38.2 seconds
+# Emeka : 39 seconds
+# Uche : 41.2 seconds
