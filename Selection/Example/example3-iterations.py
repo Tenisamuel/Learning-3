@@ -9,7 +9,7 @@
 # 1 + 2 + 3 + 4 + 5 = 15
 # 1+2+3+4+5=15.
 
-number = int(input("enter a particular integer number"))
+number = int(input("Enter an integer number: \n"))
 
 current_number = 1
 
