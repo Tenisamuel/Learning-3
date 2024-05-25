@@ -8,10 +8,3 @@
 # In this example, the sum of numbers from 1 to 5 is 
 # 1 + 2 + 3 + 4 + 5 = 15
 # 1+2+3+4+5=15.
-
-
-sumofnumbers=0
-writtennumber=False
-while not writtennumber:
-    int(input("Enter a number"))
-    sumofnumbers = sumofnumbers + 1
