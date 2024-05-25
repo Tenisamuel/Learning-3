@@ -9,14 +9,14 @@
 # 1 + 2 + 3 + 4 + 5 = 15
 # 1+2+3+4+5=15.
 
-number = int(input("Enter an integer number: \n"))
+number_written = int(input("Enter a number: \n"))
 
-current_number = 1
+sum_of_numbers = 1
 
-sum_of_number = 0
+addednumbers = 0
 
-while current_number <= number:
-    sum_of_number = sum_of_number + current_number
-    current_number = current_number + 1
+while sum_of_numbers <= number_written:
+    addednumbers = addednumbers + sum_of_numbers
+    sum_of_numbers +=1
 
-print("The sum of numbers from 1 to", number , "is given as", sum_of_number)
+print("The sum of the number", number_written ,"You have chosen has been summed to be ",addednumbers)
