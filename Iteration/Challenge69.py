@@ -1,6 +1,6 @@
 #Enter the names and scores out of 10 (e.g 7.5) achieved by divers in a competion.The end data is indicated
 #by a name of xxx.print the names and scores of the diver with the best scores,rounded to 1 decimal place. (Assume
-#there are no ties for the first plce0)
+#there are no ties for the first place)
 
 totaltime = 0
 mintime=10
@@ -17,4 +17,4 @@ while moredata:
     else:
         moredata = False
 print("Fastest diver:",fastestdiver)
-print("Time:", round (mintime,1), "seconds")
+print("Time:", round (mintime,1), "seconds") 
