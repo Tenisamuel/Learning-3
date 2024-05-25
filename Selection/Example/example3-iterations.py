@@ -8,3 +8,15 @@
 # In this example, the sum of numbers from 1 to 5 is 
 # 1 + 2 + 3 + 4 + 5 = 15
 # 1+2+3+4+5=15.
+
+number = int(input("enter a particular integer number"))
+
+current_number = 1
+
+sum_of_number = 0
+
+while current_number < number:
+    sum_of_number = sum_of_number + current_number
+    current_number = current_number + 1
+
+print("The sum of numbers from 1 to", number , "is given as", sum_of_number)
