@@ -15,7 +15,7 @@ current_number = 1
 
 sum_of_number = 0
 
-while current_number < number:
+while current_number <= number:
     sum_of_number = sum_of_number + current_number
     current_number = current_number + 1
 
