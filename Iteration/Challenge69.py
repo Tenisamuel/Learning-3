@@ -2,9 +2,6 @@
 #by a name of xxx.print the names and scores of the diver with the best scores,rounded to 1 decimal place. (Assume
 #there are no ties for the first plce0)
 
-
-
-
 totaltime = 0
 mintime=10
 moredata = True
