@@ -7,7 +7,6 @@
 
 # In this example, the sum of numbers from 1 to 5 is 
 # 1 + 2 + 3 + 4 + 5 = 15
-# 1+2+3+4+5=15.
 
 number = int(input("Enter an integer number: \n"))
 
