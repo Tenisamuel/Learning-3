@@ -19,4 +19,6 @@ for i in range(5):
         min_city = city
         min_year = year
     
-print("The City with the most recent olympic year is", max_city)
+print("The City with the most recent olympic year is", max_city , "In the year", max_year)
+
+print("The city with the earliest olymic year is" , min_city , "In the year", min_year)
