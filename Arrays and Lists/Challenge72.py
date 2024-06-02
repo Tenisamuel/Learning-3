@@ -5,4 +5,4 @@
 #Use the list.append() method to append Uranus and Neptune to the end of list 
 #print the list in the format 
 
-["Mecury", "Uranus", "Venus", "Neptune"," Mars", "Saturn", "Jupiter", "Earth"]
+#["Mecury", "Uranus", "Venus", "Neptune"," Mars", "Saturn", "Jupiter", "Earth"]
