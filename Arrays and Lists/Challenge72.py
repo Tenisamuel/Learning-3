@@ -6,3 +6,10 @@
 #print the list in the format 
 
 #["Mecury", "Uranus", "Venus", "Neptune"," Mars", "Saturn", "Jupiter", "Earth"]
+
+planets_six = ["Mecury", "Venus", "Mars", "Saturn", "Jupiter", "Earth"]
+planets_six.append("Uranus")
+planets_six.append("Neptune")
+
+
+print(planets_six)
