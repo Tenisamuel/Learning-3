@@ -5,3 +5,11 @@
 
 #Print the list list and the total number of astronauts sent on space missions from 2016 to 2020
 
+astronauts = []
+
+for i in range(0,12):
+    prompt = input("Write down a list of astronauts that were in space in 2016")
+    astronauts.append(prompt)
+
+print("The following were the names of astronauts that were on space missions in 2016:", astronauts)
+print("There were", len(astronauts), "elements")
