@@ -10,6 +10,5 @@
 planets_six = ["Mecury", "Venus", "Mars", "Saturn", "Jupiter", "Earth"]
 planets_six.append("Neptune")
 planets_six.append("Uranus")
-planets_six[3] = "Neptune"
 
 print(planets_six)
