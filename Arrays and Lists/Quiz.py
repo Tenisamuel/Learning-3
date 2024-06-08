@@ -24,3 +24,5 @@ print(length)
 
 absolute = abs(-15.653446)
 print(absolute)
+
+print(7%2)
