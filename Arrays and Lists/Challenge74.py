@@ -5,4 +5,5 @@
 
 planets_on_next_line = ["Mecury", "Venus", "Earth", "Mars", "Jupiter", "Saturn"]
 
-print(*planets_on_next_line, sep="\n")
+for i in range(5,-1,-1):
+    print(planets_on_next_line[i])
