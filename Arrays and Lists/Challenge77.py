@@ -1,16 +1,16 @@
-planetList = ()
-moonList = ()
+planetlist = []
+moonList = []
 moreData = True
 print("\nPlanets and moons\n")
 
-while not moreData:
+while moreData:
     planetName = input("Enter name of planet, xxx to finish: ")
-    if planetName = "xxx":
+    if planetName == "xxx":
         moreData = False
     else:
-        numMoons = int(input("Enter number of moons: ")
-        append.planetList(planetName)
-        append.moonList(numMoons)
+        numMoons = int(input("Enter number of moons: "))
+        planetlist.append(planetlist)
+        moonList.append(numMoons)
 
-for index in range(len(planetList)):
-    print(planetList[index] + " has " + str(moonList[index]) + " moons")
+for index in range(len(planetlist)):
+    print(planetlist[index], "has" , (moonList[index]) , " moons")
