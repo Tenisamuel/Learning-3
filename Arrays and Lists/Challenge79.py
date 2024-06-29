@@ -16,15 +16,15 @@ while index in range(len(planet)) and not earthFound:
     if planet[index] == "Earth":
 
 # complete statements here       
-        earthIndex =..................
-        earthFound = ..................
+        earthIndex = index
+        earthFound = True
 
         #delete "Earth"        
-        planet.remove(planet)
+        planet.remove("Earth")
 
     else:
         index = index + 1
 
 print("Earth found at index " + str(index) + " in the list")
 
-print("List after deleting Earth:", ..............)
+print("List after deleting Earth:", planet)
