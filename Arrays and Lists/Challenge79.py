@@ -4,7 +4,7 @@
 planet = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn"]
 
 #print list of planets 
-print("List of planets: ", ................)
+print("List of planets: ", planet)
 
 #print blank line
 print()
@@ -20,7 +20,7 @@ while index in range(len(planet)) and not earthFound:
         earthFound = ..................
 
         #delete "Earth"        
-        ..................
+        planet.remove(planet)
 
     else:
         index = index + 1
