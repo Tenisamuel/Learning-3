@@ -12,3 +12,8 @@
 #From the two lists, print the information in the format given above.
 
 nameofplanets = ["Jupiter","Saturn","Uranus","Neptune","Venus","Mars","Mecury","Earth"]
+
+sizesoflist = [1120,945,400,390,95,53,38,100]
+
+for i in range(len(nameofplanets)):
+    print(nameofplanets[i], str(sizesoflist[i])+"% of the size of the earth")
