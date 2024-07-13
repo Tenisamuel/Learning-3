@@ -3,3 +3,4 @@
 #the combined result e.g
 #The combined size of the memory is .... kB
 #Convert the kB to MB and output the result as an integer. There are 1024kB to a MB.
+
