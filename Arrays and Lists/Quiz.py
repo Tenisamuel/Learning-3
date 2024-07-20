@@ -19,10 +19,14 @@ surname =  ["Ola", "Ibe", "Eli", "Fashola", "Gift", "Cicak", "tunde", "Ilyas"]
 #for i in firstname:
 #    for j in surname:
 #        print(i, j)
-length = len(firstname)
-print(length)
+#length = len(firstname)
+#print(length)
 
-absolute = abs(-15.653446)
-print(absolute)
+#absolute = abs(-15.653446)
+#print(absolute)
 
-print(7%2)
+#print(7%2)
+
+for i in range(7):
+    for j in range(10):
+        print(i, j)
