@@ -10,7 +10,7 @@ score = [ [75, 59, 63],
 
 #initialise list of skaters' names
 #names are Amber, Cindy, Valentina, Isabella, Terri
-#name = ["Amber", "Cindy", "Valentina", "Isabella", "Terri"]
+name = ["Amber", "Cindy", "Valentina", "Isabella", "Terri"]
 
 #initialise list of five totals
 #total = [sum(score[0]), sum(score[1]), sum(score[2]), sum(score[3]), sum(score[4]) ]
@@ -28,6 +28,7 @@ for skater in range(5):
         winnerName = name[skater]
 
 print("Winner:", winnerName, " Score:", maxScore)
+
 
 
 
