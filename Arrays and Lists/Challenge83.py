@@ -13,3 +13,5 @@ month = int(input("Enter 0 for May, 1 for June, 2 for July, 3 for August: "))
 
 print("Bookings for " + siteList[site] + " in " + monthList[month] + \
       " : " + str(booking[site][month]))  
+
+      
