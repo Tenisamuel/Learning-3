@@ -13,19 +13,21 @@ score = [ [75, 59, 63],
 #name = ["Amber", "Cindy", "Valentina", "Isabella", "Terri"]
 
 #initialise list of five totals
-total = [sum(score[0]), sum(score[1]), sum(score[2]), sum(score[3]), sum(score[4]) ]
+#total = [sum(score[0]), sum(score[1]), sum(score[2]), sum(score[3]), sum(score[4]) ]
+
+total = [0]*5
 
 #initialise maxScore
-maxScore = 
+maxScore = 0
 
-#for skater ........................
-#    for judge .....................
-#       total[skater] = total[skater] + score[.........][............]
-#    if total[skater] > maxScore:
-#       ..............................
-#       winnerName = .....................
+for skater in range(5):
+    for judge in range(3):
+        total[skater] = total[skater] + score[skater][judge]
+    if total[skater] > maxScore:
+        maxScore = total[skater]
+        winnerName = name[skater]
 
-#print("Winner:", winnerName, " Score:", maxScore)
+print("Winner:", winnerName, " Score:", maxScore)
 
 
 
