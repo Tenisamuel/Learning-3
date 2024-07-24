@@ -8,13 +8,13 @@
 name = ["Tatiana","Sabrina","Luna"]
 
 #initialise integer variable totalCubs to zero
-......................
+totalclubs = 0
 
 #ask user to input data for two years, 2019 and 2020
-for year in range (2019,.....):
+for year in range (2019,2021):
     #print a blank line
     print("\n")
-    for lioness in ..............:
+    for lioness in range (3):
         cubs = int(input("Enter number of cubs born to " + name[lioness]\
                          + " in " + str(year) + ": "))
 
