@@ -19,6 +19,6 @@ for year in range (2019,2021):
                          + " in " + str(year) + ": "))
 
         #add to cumulative total
-        .............................
+        totalclubs = totalclubs + 1
 
 print("Total cubs born:"...................
