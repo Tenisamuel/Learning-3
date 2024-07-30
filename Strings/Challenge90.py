@@ -2,6 +2,12 @@
 #"e" appears in the sentence.
 
 
-sentence_e = input("Write a sentence")
+sentence = input("Enter the sentence:")
 
-if sentence_e 
+count = 0
+
+for i in sentence:
+    if i == "e":
+        count = count + 1
+
+print("The number of 'e' in the sentence is given as:", count)
