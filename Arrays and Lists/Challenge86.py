@@ -8,7 +8,7 @@
 name = ["Tatiana","Sabrina","Luna"]
 
 #initialise integer variable totalCubs to zero
-totalclubs = 0
+totalcubs = 0
 
 #ask user to input data for two years, 2019 and 2020
 for year in range (2019,2021):
@@ -19,6 +19,9 @@ for year in range (2019,2021):
                          + " in " + str(year) + ": "))
 
         #add to cumulative total
-        totalclubs = totalclubs + 1
+        totalcubs = totalcubs + cubs
 
-print("Total cubs born:"...................
+
+print("Total cubs born:", totalcubs)
+      
+# This piece of code is trying to make a prompt to carry outthe number of cubs born in 3 years
