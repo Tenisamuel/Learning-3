@@ -5,6 +5,5 @@
 productCode = ["SN44-SHD","PS32-POR","HT60-BFS","SN32-UHD","SG32-SMT","SN55-4KS"]
 for index in range(0,6):
     size = productCode[index]
-    if size[2:4] == "32":
-        print(size)
-	
+    if index ==
+
