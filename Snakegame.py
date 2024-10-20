@@ -33,5 +33,5 @@
 #window.title("Snake Game")
 #window.resizable(False, False)
 
-#window.mainloop()
+window.mainloop()
 
