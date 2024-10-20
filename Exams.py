@@ -6,5 +6,5 @@ if age_of_dog <= 2:
     human_age = 12 * age_of_dog
     print ("The human age for this is", human_age)
 elif age_of_dog > 2:
-    human_age = 24 + (age_of_dog * 6)
+    human_age = 24 + ((age_of_dog - 2) * 6)
     print ("The human age is given to be as ", human_age)
