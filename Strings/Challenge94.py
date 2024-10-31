@@ -6,12 +6,16 @@ book = "The book by Damian Barr is called 'You will be safe here'"
 #find the length of the string named book
 
 lengthofbook = len(book)
+print(lengthofbook)
 
 #find the first single quote mark
-location_singlequote = book[34]
 
+# location_singlequote = book[34]
+location_singlequote = book.index("'")
+print(location_singlequote)
 
 # now slice the string to isolate the title
+# title = book[34:58]
 
-title = book[34:58]
+title = book[location_singlequote:lengthofbook]
 print(title)
