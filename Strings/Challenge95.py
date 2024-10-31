@@ -4,3 +4,10 @@
 #Once the user has entered a valid password, the user is asked to verify it by entering it a second time.If it matches, 
 #the message "Password accepted" is pribted and the program terminates.
 
+Promptpassword = int(input("Enter your password: "))
+if Promptpassword < 10:
+    print("Re-enter password")
+else:
+    print("valid")
+    Verifiedpassword = input("Verify your password by entering it a second time: ")
+
