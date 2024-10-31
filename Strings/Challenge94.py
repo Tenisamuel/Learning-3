@@ -9,13 +9,10 @@ lengthofbook = len(book)
 print(lengthofbook)
 
 #find the first single quote mark
+location_singlequote = book[34]
 
-# location_singlequote = book[34]
-location_singlequote = book.index("'")
-print(location_singlequote)
 
 # now slice the string to isolate the title
-# title = book[34:58]
 
-title = book[location_singlequote:lengthofbook]
+title = book[34:58]
 print(title)
