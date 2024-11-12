@@ -29,7 +29,7 @@ while not validInteger:
             
             #calculate and print the catering requirements for event
             #based on eight canapes per guest
-            print("Canapes required: "+ str(numGuests) * 8)
+            print("Canapes required: "+ str(numGuests * 8))
 
         else:
             input("Invalid number re enter:")
