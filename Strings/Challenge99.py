@@ -32,6 +32,6 @@ while not validInteger:
             print("Canapes required: "+ str(numGuests * 8))
 
         else:
-            input("Invalid number re enter:")
+            guests = input("Invalid number re enter:")
 
             #number entered not between 1 and 75, so ask user to re-enter
