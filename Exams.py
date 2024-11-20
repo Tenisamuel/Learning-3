@@ -1,35 +1,51 @@
-# This is the program that converts the age of a dog to that of a human using some following methods.
+#array months[12]
+#months = ["January","Febuary","March","April","May","June","July","August","September","October","november","December"]
+#array rainfall = 0
+#for i = 0 to month.length-1
+#       rainfall[i] = int(input("Please input rainfall for month", months[i]))
+#       annualrainfall = annualrainfall + rainfall[i]
+#next i
+#aveargerainfall = annualrainfall/12
+#monthsaboveaverage = 0
+#for i = 0 to month.length-1
+#    if rainfall[i]>averagerainfall then
+#       monthsaboveaverage = monthsaboveaverage+1
+#    endif
+#   print(months[i] + ": " + str(rainfall[i]))
+#next i
+#print(annualrainfall)
+#print(aveargerainfall)
+#print(monthsaboveaverage)
 
-#age_of_dog = int(input("Enter the age of the dog: \n"))
-
-#if age_of_dog <= 2:
-#    human_age = 12 * age_of_dog
-#    print ("The human age for this is", human_age)
-#elif age_of_dog > 2:
-#    human_age = 24 + ((age_of_dog - 2) * 6)
-#    print ("The human age is given to be as ", human_age)
-
-
-#print("Hello", username)
-#age = int(input("How old are you: "))
-#print(age)
-#doubledage = age * 2
-#print("You will be this age ",doubledage,"In two years")
-#fullname = input("What is your full name: ")
-#print(fullname)
-#ullname_two = fullname[0]
-#print(fullname_two)
-
-#firstnumber = int(input("Enter first number:"))
-#secondnumber = int(input("Enter second number:"))
-#dividednumbers = firstnumber / secondnumber
-#print("These are your numbers divided ",dividednumbers)
-
-#username = input("What is your name: \n")
-#for username in range(0,7):
+months = ["January","Febuary","March","April","May","june","july","august","september","october","november","December"]
+rainfall_list = []
+annualrainfall = 0
+for i in range(len(months)-1):
+    print("Insert the input rainfall for the month of", months[i])
+    rainfall = int(input("Please input rainfall in the last month"))
+    rainfall_list.append(rainfall)
+    annualrainfall = annualrainfall + rainfall
+averagerainfall = annualrainfall / 12
+monthsaboveaverage = 0
+for i in range(len(months)-1):
+    if rainfall_list[i] > averagerainfall:
+        monthindicate = []
+        monthindicate.append(rainfall_list[i])
+        monthsaboveaverage = monthsaboveaverage + 1
+    print(months[i] + ": " + str(rainfall_list[i]))
+print(annualrainfall)
+print(averagerainfall)
+print(monthsaboveaverage)
+print("These are the months above average", monthindicate)
 
 
 
-username = "Tara"
-username = "Alice"
-print(username)
+
+
+
+
+
+
+
+
+
