@@ -10,11 +10,11 @@ print("{:^8d}{:<15}".format(1, "Christine"))
 print("{:^8d}{:<15}".format(2, "Vibrant"))
 print("{:^8d}{:<15}".format(3, "Honeoye"))
 print("{:^8d}{:<15}".format(4, "Cambridge"))
-print("{..........}".format(5, "Pegasus"))
+print("{:^8d{:<15}}".format(5, "Pegasus"))
       
 #input selected variety. (Must be between 1 and 5, or 0 to end)
 
-chooseAgain = .......
+chooseAgain = False
 while chooseAgain == True:
     variety = input("Select variety (1-5) to view description (0 to end): ")
     if  not(variety in (.......................)):
@@ -28,7 +28,7 @@ while chooseAgain == True:
         elif variety == 3:
             print("Honeoye - Ready to pick from mid-June")
             print("Good for jam-making")
-        .... variety == 4 or ..................
+        elif variety == 4 or ..................
             print("Cambridge and Pegasus - Juicy and soft")
             print("Pick late June to late July")
         
