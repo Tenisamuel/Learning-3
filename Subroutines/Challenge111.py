@@ -26,13 +26,13 @@ print("Time's up!")
 
 
 
-import time
-waitTime = float(input("How many seconds (between 1 and 5) \
-do you want to set the timer for? "))
+#import time
+#waitTime = float(input("How many seconds (between 1 and 5) \
+#do you want to set the timer for? "))
 
-while not(waitTime in range(1,6)):
-    waitTime = float(input("Enter a number between 1 and 5! "))    
+#while not(waitTime in range(1,6)):
+#    waitTime = float(input("Enter a number between 1 and 5! "))    
 
-print("Start the timer...")
-time.sleep(waitTime)
-print("Time's up!")
+#print("Start the timer...")
+#time.sleep(waitTime)
+#print("Time's up!")
