@@ -2,18 +2,19 @@
 # calls functions to calculate area of square, circle or triangle
 
 #Import Python module
-....................
+import Python() # type: ignore
+import math
 
 def square(side):
     area = side * side
-    return .................
+    return area
 
 def circle(radius):
     area = math.pi * radius**2
-    return ............
+    return radius
 
 #function to find area of triangle
-def triangle(........................)
+def triangle(area):
     ................................
     .................
 
@@ -23,7 +24,7 @@ myShape = input("Enter a shape, S for square, C for circle, T for triangle: ")
 shape = myShape.upper()
 
 #keep asking user to enter shape while it is not S, C or T 
-while ..................................................
+while 
 
 
 #user can enter either upper- or lowercase s, c or t
