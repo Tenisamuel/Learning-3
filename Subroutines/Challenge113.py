@@ -16,7 +16,7 @@ def menu():
     choice = input("Enter choice: ")
 
     #validate chosen option
-    while ..........................
+    while(choice == 1 or choice == 2 or choice == 3):
         print("\nInvalid option, please enter a number between 1 and 3")
         choice = input("Enter choice: ")
 
@@ -32,8 +32,8 @@ while option != "3":
     if option == "1":
         displayRules()
     elif option == "2":
-        ......................
-    elif ...................
+        newGame()
+    elif option == "3":
         print("\nGoodbye!")
 
 
