@@ -1,4 +1,5 @@
 #Program name: Level 7 Challenge 113 menu subroutine with validation completed
+#Add the code to validate the coice within the function menu().
 
 def displayRules():
     print("\n********** Option to display rules chosen************\n")
