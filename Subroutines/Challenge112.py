@@ -6,21 +6,21 @@
 #base times height amend each sub-routine so that it returns the area rounded to two decimal places.
 
 #Import Python module
-import Python() # type: ignore
+# import Python() # type: ignore
 import math
 
 def square(side):
     area = side * side
-    return area
+    return round(area,3)
 
 def circle(radius):
     area = math.pi * radius**2
-    return area
+    return round(area,3)
 
 #function to find area of triangle
 def triangle(base,height):
     area = 1/2 * base * height
-    return area
+    return round(area,3)
 
 #main program
 print("This program calculates the area of a square, circle or triangle\n")
@@ -28,8 +28,7 @@ myShape = input("Enter a shape, S for square, C for circle, T for triangle: ")
 shape = myShape.upper()
 
 #keep asking user to enter shape while it is not S, C or T 
-while not shape == ("s", "c", "t"):
-    print(myShape)
+while not (shape == "S" or shape == "C" or shape == "T"):
 
 #user can enter either upper- or lowercase s, c or t
     myShape = input("Please enter S, C or T: ")
@@ -41,15 +40,13 @@ while not shape == ("s", "c", "t"):
 if shape == "S":
     sideLength = float(input("Enter length of side: "))
     area = square(sideLength)
-    print(sideLength)
-
+elif shape == "C":
     circleRadius = float(input("Enter radius: "))
     area = circle(circleRadius)
-    print(circleRadius)
-
-    triangleBase = 
-    triangleHeight = ........................
-    area = ..................................
+else:
+    triangleBase = float(input("Enter base length"))
+    triangleHeight = float(input("Enter height length"))
+    area = triangle(triangleBase,triangleHeight)
 
 print("Area =",area)
                     
