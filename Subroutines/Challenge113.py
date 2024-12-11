@@ -16,11 +16,12 @@ def menu():
     choice = input("Enter choice: ")
 
     #validate chosen option
-    while(choice == 1 or choice == 2 or choice == 3):
+    while not (choice == "1" or choice == "2" or choice == "3"):
         print("\nInvalid option, please enter a number between 1 and 3")
         choice = input("Enter choice: ")
 
     return choice
+
 
 #main program
 #initialise option to a blank
