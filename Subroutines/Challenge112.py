@@ -49,4 +49,4 @@ else:
     area = triangle(triangleBase,triangleHeight)
 
 print("Area =",area)
-                    
+ 
