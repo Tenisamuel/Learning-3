@@ -2,7 +2,7 @@
 #"Hello jane" or whatevername entered
 def firstname():
     print("Enter your first name")
-    firstname = input("Enter your name")
+    firstname = input("Enter your name\n")
     print("Hello", firstname)
-    return firstname
-option = firstname()
+
+firstname()
