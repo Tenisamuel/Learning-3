@@ -13,3 +13,5 @@
 
 #print("The amount of numbers that have 1 in it are", count)
 
+import turtle
+window = turtle.screen

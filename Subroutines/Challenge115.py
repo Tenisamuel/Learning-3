@@ -6,5 +6,11 @@
     #TIP: USE STRING SLICING, concatenation and method string.upper().see page 44
     #return the username to the main program and prints it.
 
-firstname_surname = input("Enter your firstname and surname")
-dob = int(input("Enter yor date of birth in the format ddmmyy"))
+firstname = input("Enter your firstname")
+surname = input("Enter your surname")
+dob = input("Enter yor date of birth in the format ddmmyy")
+
+slice = firstname[0:2].upper()
+slice_two = surname[0:2].upper()
+
+print(slice + slice_two + dob)
