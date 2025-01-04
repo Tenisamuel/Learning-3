@@ -4,13 +4,13 @@
 #The number of times each face appears is printed at the end of the test
 
 #import the random module
-..............................
+import random
 
 
 #function menu() called from main program
 #insert function header
 
-......................
+def menu():
     print("\nMenu options")
     print("1. Explain the purpose of the test")
     print("2. Start a new test")
@@ -18,12 +18,12 @@
     choice = input("Enter choice: ")
 
     #validate choice
-    ...........................
-        .......................
-        .......................
+    while not (choice == "1" or choice == "2" or choice == "3"):
+        print("\nInvalid option, please enter a number between 1 and 3")
+        choice = input("Enter choice: ")
 
     #return the user's choice to the main program
-    ......................
+    return choice
 
  
 #procedure displayRules() displays the purpose of the test
@@ -31,7 +31,7 @@
 
 #insert procedure header    
 
-.............................
+def displayrules():
     print("\nThis program simulates the throw of a die, \
 and tests the fairness of the random number generator")
     print("\nEach number should appear approximately the same number of times.\n")
@@ -48,7 +48,7 @@ def testNumbers():
 
     #define a list named face containing 7 zeros in face[0], face[1] to face[6]   
     #face[0] will not be used
-    face = .............      
+    face = [0,1,2,3,4,5,6,7]
 
     print("Select one of the numbers 6, 60, 600, 6000") 
     throws = input("How many times do you want to roll the die? ")
@@ -59,7 +59,7 @@ def testNumbers():
        throws = input("How many times do you want to roll the die? ")
 
     #convert throws to integer
-    ..........................
+    convert = int(throws)
 
     #Carry out the simulation.
     #Throw the dice the selected number of times and print result
