@@ -14,8 +14,6 @@ print("{:^8d}{:<15}".format(5, "Pegasus"))
       
 #input selected variety. (Must be between 1 and 5, or 0 to end) 
 
-
-
 chooseAgain = True
 while chooseAgain:
     variety = input("Select variety (1-5) to view description (0 to end): ")
