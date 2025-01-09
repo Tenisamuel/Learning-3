@@ -3,8 +3,8 @@
 import turtle
 
 turtle.pensize(10)
-turtle.pencolor("pink")
-
+turtle.pencolor("red")
+turtle.setpos(-100,200)
 for n in range(6):
     turtle.forward(60)
     turtle.right(60)
