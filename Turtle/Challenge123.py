@@ -7,6 +7,8 @@ turtle.shape("turtle")
 turtle.speed("slow")
 
 #draw the shape
-turtle.forward(200)
+for i in range(8):
+    turtle.forward(200)
+    turtle.left()
 
 #complete the drawing
