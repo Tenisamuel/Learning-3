@@ -1,14 +1,10 @@
-#from pytube import YouTube
-#from sys import argv
+import pytube
 
-#link = argv[1]
-#yt = YouTube(link)
+link = ("Paste Youtube URL here: ")
 
-#print("Title: ", yt.title)
+yt = pytube.YouTube(link)
 
-#print("View: ", yt.views)
+yt.streams.first().download()
 
-#yd = yt.streams.get_highest_resolution()
-
-#yd.download("C:\Users\HP\OneDrive\Pictures\Screenshots")
+print("Video Downloaded!")
 
