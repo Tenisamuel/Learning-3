@@ -3,7 +3,7 @@
 import turtle
 
 turtle.pensize(10)
-turtle.pencolor("red")
+turtle.pencolor("green")
 turtle.setpos(-100,200)
 for n in range(6):
     turtle.forward(60)
