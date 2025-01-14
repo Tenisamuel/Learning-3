@@ -3,9 +3,9 @@
 
 import turtle
 
-
+turtle.width(3)
 turtle.pensize(10)
-
+turtle.pencolor("red")
 for i in range (5):
     turtle.left(72)
     turtle.forward(90)
