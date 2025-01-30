@@ -54,3 +54,5 @@ with open("exams.txt", "r") as file:
         print(line.strip())
 
 print("\nEnd of file reached.")
+
+This is a good code
