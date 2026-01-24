@@ -47,7 +47,6 @@
 
 with open("exams.txt", "r") as file:
     print("Reading exam.txt file line by line:\n")
-    
     # Read each line in the file
     for line in file:
         # Strip leading/trailing whitespace and print the line
