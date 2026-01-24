@@ -1,10 +1,10 @@
 import csv
 import json
 
-def csv_to_json(csv_file_path, json_file_path):
+def csv_to_json('Event-Registration.csv', 'Event-Registration.json'):
     data = []
 
-    with open(csv_file_path, mode='r', newline='', encoding='utf-8') as csv_file:
+    with open('Event-Registration.csv', mode='r', newline='', encoding='utf-8') as csv_file:
         reader = csv.DictReader(csv_file)
 
         for row in reader:
