@@ -3,8 +3,6 @@ import json
 import sys
 import os
 
-csv_file = 'Event-Registration.csv'
-json_file = 'Event-Registration.json'
 def csv_to_json(csv_file, json_file):
     data = []
 
