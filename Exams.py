@@ -45,11 +45,28 @@
 #    marksFile.write(name + "," + mark + "\n")
 #marksFile.close()
 
-with open("exams.txt", "r") as file:
-    print("Reading exam.txt file line by line:\n")
-    # Read each line in the file
-    for line in file:
-        # Strip leading/trailing whitespace and print the line
-        print(line.strip())
+#with open("exams.txt", "r") as file:
+#    print("Reading exam.txt file line by line:\n")
+#    # Read each line in the file
+#    for line in file:
+#        # Strip leading/trailing whitespace and print the line
+#        print(line.strip())
 
-print("\nEnd of file reached.")
+#print("\nEnd of file reached.")
+
+data = "rivals on top"
+data2 = ("\nhypershot could lowkey compete")
+print(data + " " + data2, "no suprise there")
+
+opinion = input("Which do you really prefer and want to get better at")
+change = opinion.lower
+
+
+
+
+if opinion == "rivals":
+    print("Rivals is a great game and like it too".lower())
+elif opinion == "hypershot":
+    print("Hypershot is also another good one".upper())
+else:
+    print("I havent heard of that one")
