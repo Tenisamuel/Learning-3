@@ -63,3 +63,65 @@ elif m_s_a == "add":
     print(num3)
 else:
     print("please satisfy the condition")
+
+    import string
+#Modules have been imported to print unpredictable values
+#string module gives a premade set of characters that 
+#saves time printing everysingle alphabet, letter, character etc.
+def generate_password():
+    #Function used to hold all necessary prompts for the user to enter 
+    #what sort of password they may want depending on their preference
+    #Functions such as .strip() and .lower() remove spaces in between when the prompts are called
+    #.lower() coverts every input into lowercase
+    while True:
+        # as the input is still true keep running the program unitl it breaks,
+        #The break signifies the correct input has been entered.
+        try:
+            length = int(input("Enter the desired password length: ").strip())
+            break
+        except ValueError:
+            print("Invalid input, please enter a number.")
+
+    include_uppercase = input("Include uppercase letters? (yes/no): ").strip().lower()
+    include_lowercase = input("Include lowercase letters? (yes/no): ").strip().lower()
+    include_digits = input("Include digits? (yes/no): ").strip().lower()
+    include_special = input("Include special characters? (yes/no): ").strip().lower()
+    #Other necessary prompts to allow the user construct their password with ease.
+
+    if length < 4:
+        print("Password length must be at least 4 characters.")
+        return ""
+    #This check validates the inputs from the user and IF the length of the password
+    #Is below 4, it isnt strong enough and is more likely to guess or hack the password.
+    lowercase_letters = string.ascii_lowercase if include_lowercase == "yes" else ""
+    uppercase_letters = string.ascii_uppercase if include_uppercase == "yes" else ""
+    digits = string.digits if include_digits == "yes" else ""
+    special_characters = string.punctuation if include_special == "yes" else ""
+    all_characters = lowercase_letters + uppercase_letters + digits + special_characters
+
+    if not all_characters:
+        print("No character types selected. Aborting.")
+        return ""
+
+    required_characters = []
+    if include_uppercase == "yes":
+        required_characters.append(random.choice(uppercase_letters))
+    if include_lowercase == "yes":
+        required_characters.append(random.choice(lowercase_letters))
+    if include_digits == "yes":
+        required_characters.append(random.choice(digits))
+    if include_special == "yes":
+        required_characters.append(random.choice(special_characters))
+
+    remaining_length = length - len(required_characters)
+    password = list(required_characters)
+
+    for _ in range(remaining_length):
+        characters = random.choice(all_characters)
+        password.append(characters)
+    random.shuffle(password)  # Shuffled to make password stronger
+    str_password = "".join(password)
+    return str_password
+password = generate_password()
+print(password)
+print("------------------------------------------")
