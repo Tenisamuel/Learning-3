@@ -33,10 +33,11 @@ def generate_password_from_ui(length, include_uppercase, include_lowercase, incl
     digits = string.digits if include_digits else ""
     special_characters = string.punctuation if include_special else ""
     all_characters = lowercase_letters + uppercase_letters + digits + special_characters
-
+    #First block of code validates and checks the specific input and crtiteria of depepending on the users choice.
+    #Ascii is used to store all possible characters for: special characters, numbers, letters(upper case,lowercase)
     if not all_characters:
         return "No character types selected."
-
+    #Another set of validation that enables the user to filter what is needed in their password.
     required_characters = []
     if include_uppercase:
         required_characters.append(random.choice(uppercase_letters))
@@ -46,7 +47,10 @@ def generate_password_from_ui(length, include_uppercase, include_lowercase, incl
         required_characters.append(random.choice(digits))
     if include_special:
         required_characters.append(random.choice(special_characters))
-
+#The block of code above ensures the final password contains at least one 
+#character out of all the requirements. It is crucial that 
+#a strong password is created to make it harder for exploiters and data minors 
+# To gain access to user information and data.
     remaining_length = length - len(required_characters)
     password = list(required_characters)
 
@@ -63,10 +67,10 @@ def run_ui():
     window.title("Password Generator")
     window.geometry("520x420")
     window.configure(bg="#1e1e1e")
-
+    #Creates the actual application, title and its size.
     frame = tk.Frame(window, bg="#2d2d2d", bd=2, relief="ridge")
     frame.pack(pady=20, padx=20, fill="both", expand=True)
-
+    #Frames are used to make the UI look neater
     tk.Label(frame, text="Random Password Generator", font=("Segoe UI", 18, "bold"),
              fg="#00d4ff", bg="#2d2d2d").pack(pady=10)
 
@@ -83,19 +87,19 @@ def run_ui():
 
     tk.Checkbutton(frame, text="Include Uppercase", variable=uppercase_var,
                    font=("Segoe UI", 11), fg="white", bg="#2d2d2d",
-                   activebackground="#2d2d2d").pack(anchor="w", padx=20)
+                   activebackground="#ADD8E6").pack(anchor="w", padx=20)
 
     tk.Checkbutton(frame, text="Include Lowercase", variable=lowercase_var,
                    font=("Segoe UI", 11), fg="white", bg="#2d2d2d",
-                   activebackground="#2d2d2d").pack(anchor="w", padx=20)
+                   activebackground="#ADD8E6").pack(anchor="w", padx=20)
 
     tk.Checkbutton(frame, text="Include Digits", variable=digits_var,
                    font=("Segoe UI", 11), fg="white", bg="#2d2d2d",
-                   activebackground="#2d2d2d").pack(anchor="w", padx=20)
+                   activebackground="#ADD8E6").pack(anchor="w", padx=20)
 
     tk.Checkbutton(frame, text="Include Special Characters", variable=special_var,
                    font=("Segoe UI", 11), fg="white", bg="#2d2d2d",
-                   activebackground="#2d2d2d").pack(anchor="w", padx=20)
+                   activebackground= "#ADD8E6").pack(anchor="w", padx=20)
 
     # Output label
     output_label = tk.Label(frame, text="", font=("Segoe UI", 14), fg="#00ff88",
