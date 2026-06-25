@@ -1,7 +1,7 @@
 import pandas as pd     #Module loads saved data from csv, text and html files
 import requests         #Uses requests to access servers and their information
 from io import StringIO
-url ="https://en.wikipedia.org/wiki/TenZ"  #Wikipedia = server, URL is the location of all the information being held
+url ="https://en.wikipedia.org/wiki/Bukayo_Saka"   #Wikipedia = server, URL is the location of all the information being held
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
