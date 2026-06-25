@@ -26,3 +26,6 @@ for table in peripherals:
 #    "Connection": "keep-alive",
 #    "Upgrade-Insecure-Requests": "1"
 #}
+
+
+#ONLY WORKS FOR HTML BUILT WEBPAGES(specific script)
