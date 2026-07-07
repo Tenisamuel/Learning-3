@@ -31,7 +31,7 @@ SUCCESS      = "#3fb950"   # green — used only for success confirmations
 # It doesn't need to be secret, but it DOES need to be the same every
 # time you derive a key, or you'll get a different key each run and
 # decryption will fail. So we save it to a file once, then reuse it.
-SALT_FILE = "salt.bin"
+SALT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "salt.bin")
 
 
 def get_or_create_salt() -> bytes:
